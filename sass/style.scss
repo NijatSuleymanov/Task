@@ -1,0 +1,291 @@
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section1 {
+    
+    height: 100vh;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-masthead.jpg);
+    background-size: cover ;
+    .navbar-toggler {
+        display: flex;
+        margin-left: 1010px;
+        border: none;
+        font-size: 15px;
+        background-color: rgba(0, 0, 0, .3);
+    }
+    h1{
+        font-size: 63px;
+        font-weight: 700;
+    }
+    p{
+        font-size: 20px;
+        font-weight: 700;
+        font-style: italic;
+    }
+    input{
+        width: 143px;
+        height: 53px;
+        border-radius: 4px;
+        border: none;
+        background-color: rgb(0, 110, 255);
+        color: white;
+        font-size: small;
+        font-weight: 500;
+    }
+   
+}
+.section2{
+    height: 350px;
+    input{
+        width: 143px;
+        height: 53px;
+        border-radius: 4px;
+        border: none;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        font-size: small;
+        font-weight: 500;
+    }
+
+}
+.section3{
+    .div{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+        width: 100%;
+        ;
+        
+      .box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        h4{
+            color: white;
+        }
+        #p{
+            color: rgba(218, 214, 214, 0.719);
+        }
+        
+        .circle{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 90px;
+            width: 90px;
+            color: rgb(0, 110, 255);
+            
+            background-color: white;
+            border-radius: 50%;
+            i{ font-size: 40px;
+                
+            }
+        }
+
+    }
+    
+    }
+
+    p{
+        font-size: 12px;
+        font-weight: 700;
+        color: rgb(247, 149, 2);
+    }
+    h2{
+        margin-bottom:50px ;
+        font-weight: 700;
+        font-size: 36px;
+        color: antiquewhite;
+    }
+    height: 400px;
+    background-color: rgb(0, 110, 255);
+}
+.section4 {
+    
+    height: 100vh;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-callout.jpg);
+    background-size: cover ;
+   #h3{
+    font-size: 40px;
+    font-weight: 700;
+   }
+    input{
+        width: 143px;
+        height: 53px;
+        border-radius: 4px;
+        border: none;
+        background-color: rgb(0, 110, 255);
+        color: white;
+        font-size: small;
+        font-weight: 500;
+    }
+   
+}
+.section5{
+    p{
+        font-size: 12px;
+        font-weight: 700;
+        color: rgb(247, 149, 2);
+
+    }
+    h2{
+        margin-bottom: 50px;
+        font-weight: 700;
+        font-size: 36px;
+    }
+    height: 150vh;
+    .big-box{
+        width: 800px;
+        height: 480px;
+        display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+        .box1{
+            position: relative;
+            background-size: cover ;
+            background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-1.jpg);
+            width: 400px;
+            height: 240px;
+    
+            &:hover{
+                transition:0.5s ;
+                transform: scale(0.7);
+                div{
+                    position: absolute;
+                    width: 400px;
+                    height: 240px;
+                    background-color: aqua;
+                    top: 0;
+                    left: 0;
+            
+    
+                }
+                
+            }
+           
+
+        
+            
+        }
+        .box2{
+            background-size: cover ;
+            background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-2.jpg);
+            width: 400px;
+            height: 240px;
+        }
+
+        .box2:hover{
+            transition:0.5s ;
+            transform: scale(0.7);
+            .box2:after{
+                background-color: aqua;
+                width: 400px;
+                height: 240px;
+        
+            }
+            
+        }
+
+        }
+        .box3{
+            background-size: cover ;
+            background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-3.jpg);
+            width: 400px;
+            height: 240px;
+
+            .box3:hover{
+                transition:0.5s ;
+                transform: scale(0.7);
+                .box3:after{
+                    background-color: aqua;
+                    width: 400px;
+                    height: 240px;
+            
+                }
+                
+            }
+    
+        
+            }
+            
+        }
+        .box4{
+            background-size: cover ;
+            background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-4.jpg);
+            width: 400px;
+            height: 240px;
+            
+        }
+
+    
+
+.section6{
+    height: 50vh;
+    background-color: rgb(0, 103, 163);
+    color: white;
+    .button1{
+        width: 143px;
+        height: 53px;
+        border-radius: 4px;
+        border: none;
+        background-color: white;
+        color:black;
+        font-size: small;
+        font-weight: 500;
+    }
+
+    
+    .button2{
+        width: 143px;
+        height: 53px;
+        border-radius: 4px;
+        border: none;
+        background-color: black;
+        color: white;
+        font-size: small;
+        font-weight: 500;
+    }
+
+    
+}
+iframe{
+    width: 100%;
+    height: 400px;
+}
+footer{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    p{
+        font-size: 10px;
+    }
+    .logo{
+        display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+        width: 250px;
+        height: 70px;
+        div{
+            width:50px ;
+            height: 50px;
+            border-radius: 50%;
+            background-color: rgb(61, 124, 160);
+            color: wheat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           text-decoration: none;
+        }
+    }
+}
+.section1 .navbar-toggler:active{
+    border: none !important;
+}
