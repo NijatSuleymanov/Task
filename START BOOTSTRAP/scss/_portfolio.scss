@@ -1,0 +1,250 @@
+
+.section2{
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    .three{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 750;
+        font-size: 38px;
+        color:#2c3e50 ;
+       }
+    .box{
+        width: 250px;
+        height: 15px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color:#2c3e50 ;
+        .line{
+            width: 90px;
+            height: 3px;
+            border-radius: 2px;
+            background-color:#2c3e50;
+        }
+        .fa-star{
+            font-size: 25px;
+        }
+    }
+    .bigbox{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+      
+        .img1{
+            width: 280px;
+            height: 200px;
+            background-size: cover;
+            border-radius: 7px;
+            background-image: url(https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/cabin.png);
+           i{
+            display: none;
+           }
+            &:hover{
+              
+                
+                div{
+                   
+                    i{
+                        height: 200px;
+                        color: #fff;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        font-size: 60px;
+                        transition: all 0.3s ease-in-out;
+
+                       }
+                    position: absolute;
+                    width: 280px;
+                    height: 200px;
+                    border-radius: 7px;
+                    background-color: rgba(26, 188, 156, 0.862)
+                    
+            
+    
+                }
+            }
+        }
+        .img2{
+            width: 280px;
+            height: 200px;
+            background-size: cover;
+            border-radius: 7px;
+            background-image: url(https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/cake.png);
+            i{
+                display: none;
+               }
+                &:hover{
+                  
+                    
+                    div{
+                       
+                        i{
+                            height: 200px;
+                            color: #fff;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            font-size: 60px;
+                            transition: all 0.3s ease-in-out;
+    
+                           }
+                        position: absolute;
+                        width: 280px;
+                        height: 200px;
+                        border-radius: 7px;
+                        background-color: rgba(26, 188, 156, 0.862)
+                        
+                
+        
+                    }
+                }
+        }
+        .img3{
+            width: 280px;
+            height: 200px;
+            background-size: cover;
+            border-radius: 7px;
+            background-image: url(https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/circus.png            );
+            i{
+                display: none;
+               }
+                &:hover{
+                  
+                    
+                    div{
+                       
+                        i{
+                            height: 200px;
+                            color: #fff;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            font-size: 60px;
+                            transition: all 0.3s ease-in-out;
+    
+                           }
+                        position: absolute;
+                        width: 280px;
+                        height: 200px;
+                        border-radius: 7px;
+                        background-color: rgba(26, 188, 156, 0.862)
+                        
+                
+        
+                    }
+                }
+        }
+        .img4{
+            width: 280px;
+            height: 200px;
+            background-size: cover;
+            border-radius: 7px;
+            background-image: url(https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/game.png);
+            i{
+                display: none;
+               }
+                &:hover{
+                  
+                    
+                    div{
+                       
+                        i{
+                            height: 200px;
+                            color: #fff;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            font-size: 60px;
+                            transition: all 0.3s ease-in-out;
+    
+                           }
+                        position: absolute;
+                        width: 280px;
+                        height: 200px;
+                        border-radius: 7px;
+                        background-color: rgba(26, 188, 156, 0.862)
+                        
+                
+        
+                    }
+                }
+        }
+        .img5{
+            width: 280px;
+            height: 200px;
+            background-size: cover;
+            border-radius: 7px;
+            background-image: url(https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/safe.png);
+            i{
+                display: none;
+               }
+                &:hover{
+                  
+                    
+                    div{
+                       
+                        i{
+                            height: 200px;
+                            color: #fff;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            font-size: 60px;
+                            transition: all 0.3s ease-in-out;
+    
+                           }
+                        position: absolute;
+                        width: 280px;
+                        height: 200px;
+                        border-radius: 7px;
+                        background-color: rgba(26, 188, 156, 0.862)
+                        
+                
+        
+                    }
+                }
+        }
+        .img6{
+            width: 280px;
+            height: 200px;
+            background-size: cover;
+            border-radius: 7px;
+            background-image: url(https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/submarine.png);
+            i{
+                display: none;
+               }
+                &:hover{
+                  
+                    
+                    div{
+                       
+                        i{
+                            height: 200px;
+                            color: #fff;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            font-size: 60px;
+                            transition: all 0.3s ease-in-out;
+    
+                           }
+                        position: absolute;
+                        width: 280px;
+                        height: 200px;
+                        border-radius: 7px;
+                        background-color: rgba(26, 188, 156, 0.862)
+                        
+                
+        
+                    }
+                }
+        }
+    }
+}
