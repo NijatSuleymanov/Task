@@ -1,0 +1,59 @@
+#logos {
+    width: 90%;
+    height: 76px;
+    background-color: #fff;
+    padding: 48px;
+    .all {
+      display: flex;
+      width: 1320px;
+      height: 76px;
+      .gates {
+        margin: 16px 0;
+        width: 330px;
+        height: 44px;
+        a {
+          img {
+            margin: 0 50px;
+            height: 44px;
+            width: 100%;
+          }
+        }
+      }
+      .google {
+        margin: 16px 0;
+        width: 330px;
+        height: 44px;
+        a {
+          img {
+            margin: 0 50px;
+            height: 44px;
+            width: 100%;
+          }
+        }
+      }
+      .face {
+        margin: 16px 0;
+        width: 330px;
+        height: 44px;
+        a {
+          img {
+            margin: 0 50px;
+            height: 44px;
+            width: 100%;
+          }
+        }
+      }
+      .ibm {
+        margin: 16px 0;
+        width: 330px;
+        height: 44px;
+        a {
+          img {
+            margin: 0 50px;
+            height: 44px;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
